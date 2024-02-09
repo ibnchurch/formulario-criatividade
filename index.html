@@ -9,56 +9,76 @@
     href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Roboto:wght@400;500;700;900&display=swap"
     rel="stylesheet"
     />
-  <link
-    rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
-  />
-  <link rel="icon" href="./assets/ibnc.png" type="image/x-icon" />
 </head>
 
 <body>
-    <div class="container">
+  <div class="container">
+      <div class="title__box">
+      </div>
+      <div class="img">
+          <img src="./assets/criatividadeIBNC.png" alt="criatividadeIBNC">
+      </div>
     <div class="content">
-        <div class="title__box">
-            <div class="img__box">
-              <img src="./assets/ibnc.png" />
-            </div>
-            <h1>Quero fazer parte do time IBNC CRIATIVIDADE!</h1>
-          </div>
-        <p>Uhul! Que bom que você chegou até aqui! Vamos amar ter você no time!
+      <div class="title">
+        <h1>Quero fazer parte do time IBNC CRIATIVIDADE!</h1>
+      </div>
+      <p>Uhul! Que bom que você chegou até aqui! Vamos amar ter você no time!
         O objetivo desse formulário é antes de mais nada, abrir as portas pra você ir ao nível mais importante da jornada cristã: 
         <b>SERVIR</b>, isto é, ajudar a igreja acontecer de forma prática. Para que isso aconteça, esse formulário vai te conectar com o líder específico
         de cada área de serviço da área criativa e dessa forma encontrar o melhor time para servir, além de garantir que você entenda
         como funciona o processo de entrada do seu time de interesse.
-        </p>
-        <p>
+      </p> <br>
+      <p>
         Cada time tem o seu processo de entrada, o time de "Louvor", por exemplo, depende das audições para o seu processo, e tudo isso será alinhado entre você e o líder do ministério em questão.
         De qualquer maneira, fazemos questão que você sirva, não importa o time que você faça parte.
-        Mateus 20:28 “tal como o Filho do Homem, que não veio para ser servido, mas para servir e dar a sua vida em resgate por muitos.”
+      </p>
+      <br>
+      <p>
+        “Tal como o Filho do Homem, que não veio para ser servido, mas para servir e dar a sua vida em resgate por muitos.” - Mateus 20:28 
+      </p>
+      <br>
+      <p> 
         Obs: Se você está aqui e está interessado no processo de entrada e audições para o time de <i>LOUVOR</i>, 
         as audições estão ABERTAS, e você deve clicar <a href="">AQUI</a> para participar.
-        </p>
-        <p>
-        Deus abençoe, IBNC - CRIATIVIDADE</p>
+      </p>
+      </p>
+      <br>
+      <p>
+        Deus abençoe, IBNC - CRIATIVIDADE
+      </p>
         
         <form id="form" action="https://api.sheetmonkey.io/form/9knPeZcDxUbxJz1os3Nmxw" method="post">
-            
-            <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" />
-
-            <label for="email">  Seu melhor E-mail:</label>
-            <input type="email" id="email" name="email" required>
-            
-            <label for="fullName">  Nome Completo:</label>
-            <input type="text" id="fullName" name="fullName" required>
-            
-            <label for="phone">  Celular (WhatsApp):</label>
-            <input type="text" id="phone" name="phone" placeholder="(xx) xxxxx-xxxx" pattern="\(\d{2}\) \d{5}-\d{4}" required>
-            
-            <label for="socialMedia">Redes Sociais (Instagram, Facebook) insira seu nome de perfil:</label>
-            <input type="text" id="socialMedia" name="socialMedia" required>
-            
-            <label for="timeInteresse">1º Time de interesse:</label>
-            <select id="timeInteresse" name="timeInteresse" default="Selecione" required>
+          
+          <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" />
+          
+          <label for="email">  Seu melhor E-mail:</label>
+          <input type="email" id="email" name="email" required>
+          
+          <label for="fullName">  Nome Completo:</label>
+          <input type="text" id="fullName" name="fullName" required>
+          
+          <label for="phone">  Celular (WhatsApp):</label>
+          <input type="text" id="phone" name="phone" placeholder="(xx) xxxxx-xxxx" pattern="\(\d{2}\) \d{5}-\d{4}" required>
+          
+          <label for="socialMedia">Redes Sociais (Instagram, Facebook) insira seu nome de perfil:</label>
+          <input type="text" id="socialMedia" name="socialMedia" required>
+          
+          <label for="timeInteresse">1º Time de interesse:</label>
+          <select id="timeInteresse" name="timeInteresse" default="Selecione" required>
+            <option value="Comunicacao">Comunicação</option>
+                <option value="Projeção">Projeção</option>
+                <option value="Danca">Dança</option>
+                <option value="Louvor">Louvor</option>
+                <option value="Audio">Áudio</option>
+                <option value="Iluminacao">Iluminação</option>
+                <option value="Transmissao">Transmissão</option>
+                <option value="JoyBigBandOrchestra">Joy Big Band Orchestra</option>
+                <option value="Tecnologia">Tecnologia</option>
+                <option value="Outros">Outros</option>
+              </select>
+              
+              <label for="timeInteresse2">2º Time de interesse:</label>
+              <select id="timeInteresse2" name="timeInteresse2" required>
                 <option value="Comunicacao">Comunicação</option>
                 <option value="Projeção">Projeção</option>
                 <option value="Danca">Dança</option>
@@ -69,24 +89,10 @@
                 <option value="JoyBigBandOrchestra">Joy Big Band Orchestra</option>
                 <option value="Tecnologia">Tecnologia</option>
                 <option value="Outros">Outros</option>
-            </select>
+              </select>
             
-            <label for="timeInteresse2">2º Time de interesse:</label>
-            <select id="timeInteresse2" name="timeInteresse2" required>
-                <option value="Comunicacao">Comunicação</option>
-                <option value="Projeção">Projeção</option>
-                <option value="Danca">Dança</option>
-                <option value="Louvor">Louvor</option>
-                <option value="Audio">Áudio</option>
-                <option value="Iluminacao">Iluminação</option>
-                <option value="Transmissao">Transmissão</option>
-                <option value="JoyBigBandOrchestra">Joy Big Band Orchestra</option>
-                <option value="Tecnologia">Tecnologia</option>
-                <option value="Outros">Outros</option>
-            </select>
-            
-            <label for="timeInteresse3">3º Time de interesse:</label>
-            <select id="timeInteresse3" name="timeInteresse3" required>
+              <label for="timeInteresse3">3º Time de interesse:</label>
+              <select id="timeInteresse3" name="timeInteresse3" required>
                 <option value="Comunicacao">Comunicação</option>
                 <option value="Projeção">Projeção</option>
                 <option value="Danca">Dança</option>
@@ -103,8 +109,9 @@
             <input type="text" id="outrosCampo" name="outrosCampo">
             
             <button class="submit" type="submit">Enviar</button>
-            </div>
-    </form>
+          </form>
+          </div>
+  </div>
 </div>
 
 <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
