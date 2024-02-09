@@ -51,8 +51,8 @@ label {
 }
 
 h1 {
-    width: 90%;
     max-width: 650px;
+    width: 80%;
 }
 
 p {
@@ -79,3 +79,45 @@ button {
     font-size: 1.1rem;
     cursor: pointer;
 }
+
+.title__box {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    max-width: 650px;
+  }
+  
+  .img__box {
+    width: 60px;
+    height: 60px;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    animation: background 10s infinite;
+    border-radius: 50%;
+  }
+  
+  @keyframes background {
+    0% {
+      background: #c11e2f;
+    }
+    25% {
+      background: #62c370;
+    }
+    50% {
+      background: #1aa3e8;
+    }
+    75% {
+      background: #181414;
+    }
+    100% {
+      background: #c11e2f;
+    }
+  }
+  
+  .img__box img {
+    width: 20px;
+  }
